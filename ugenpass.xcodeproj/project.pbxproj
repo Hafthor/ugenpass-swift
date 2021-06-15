@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28EF272267458D9003FAB2D /* ugenpassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF271267458D9003FAB2D /* ugenpassApp.swift */; };
+		B28EF274267458D9003FAB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF273267458D9003FAB2D /* ContentView.swift */; };
+		B28EF276267458DC003FAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28EF275267458DC003FAB2D /* Assets.xcassets */; };
+		B28EF279267458DC003FAB2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28EF278267458DC003FAB2D /* Preview Assets.xcassets */; };
+		B28EF284267458DC003FAB2D /* ugenpassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF283267458DC003FAB2D /* ugenpassTests.swift */; };
+		B28EF28F267458DC003FAB2D /* ugenpassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF28E267458DC003FAB2D /* ugenpassUITests.swift */; };
+		B28EF29D267459BB003FAB2D /* ugenpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF29C267459BB003FAB2D /* ugenpass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B28EF280267458DC003FAB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28EF266267458D9003FAB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28EF26D267458D9003FAB2D;
+			remoteInfo = ugenpass;
+		};
+		B28EF28B267458DC003FAB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28EF266267458D9003FAB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28EF26D267458D9003FAB2D;
+			remoteInfo = ugenpass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B20A783E2676E13900654A7F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B28EF26E267458D9003FAB2D /* ugenpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ugenpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28EF271267458D9003FAB2D /* ugenpassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpassApp.swift; sourceTree = "<group>"; };
+		B28EF273267458D9003FAB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B28EF275267458DC003FAB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28EF278267458DC003FAB2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B28EF27A267458DC003FAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28EF27F267458DC003FAB2D /* ugenpassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ugenpassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28EF283267458DC003FAB2D /* ugenpassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpassTests.swift; sourceTree = "<group>"; };
+		B28EF285267458DC003FAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28EF28A267458DC003FAB2D /* ugenpassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ugenpassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28EF28E267458DC003FAB2D /* ugenpassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpassUITests.swift; sourceTree = "<group>"; };
+		B28EF290267458DC003FAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28EF29C267459BB003FAB2D /* ugenpass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpass.swift; sourceTree = "<group>"; };
+		B28EF29E26748FB1003FAB2D /* ugenpass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ugenpass.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28EF26B267458D9003FAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28EF27C267458DC003FAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28EF287267458DC003FAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28EF265267458D9003FAB2D = {
+			isa = PBXGroup;
+			children = (
+				B28EF270267458D9003FAB2D /* ugenpass */,
+				B28EF282267458DC003FAB2D /* ugenpassTests */,
+				B28EF28D267458DC003FAB2D /* ugenpassUITests */,
+				B28EF26F267458D9003FAB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28EF26F267458D9003FAB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28EF26E267458D9003FAB2D /* ugenpass.app */,
+				B28EF27F267458DC003FAB2D /* ugenpassTests.xctest */,
+				B28EF28A267458DC003FAB2D /* ugenpassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28EF270267458D9003FAB2D /* ugenpass */ = {
+			isa = PBXGroup;
+			children = (
+				B28EF271267458D9003FAB2D /* ugenpassApp.swift */,
+				B28EF273267458D9003FAB2D /* ContentView.swift */,
+				B28EF275267458DC003FAB2D /* Assets.xcassets */,
+				B28EF27A267458DC003FAB2D /* Info.plist */,
+				B28EF277267458DC003FAB2D /* Preview Content */,
+				B28EF29C267459BB003FAB2D /* ugenpass.swift */,
+				B28EF29E26748FB1003FAB2D /* ugenpass.entitlements */,
+			);
+			path = ugenpass;
+			sourceTree = "<group>";
+		};
+		B28EF277267458DC003FAB2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B28EF278267458DC003FAB2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B28EF282267458DC003FAB2D /* ugenpassTests */ = {
+			isa = PBXGroup;
+			children = (
+				B28EF283267458DC003FAB2D /* ugenpassTests.swift */,
+				B28EF285267458DC003FAB2D /* Info.plist */,
+			);
+			path = ugenpassTests;
+			sourceTree = "<group>";
+		};
+		B28EF28D267458DC003FAB2D /* ugenpassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B28EF28E267458DC003FAB2D /* ugenpassUITests.swift */,
+				B28EF290267458DC003FAB2D /* Info.plist */,
+			);
+			path = ugenpassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28EF26D267458D9003FAB2D /* ugenpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28EF293267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpass" */;
+			buildPhases = (
+				B28EF26A267458D9003FAB2D /* Sources */,
+				B28EF26B267458D9003FAB2D /* Frameworks */,
+				B28EF26C267458D9003FAB2D /* Resources */,
+				B20A783E2676E13900654A7F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ugenpass;
+			productName = ugenpass;
+			productReference = B28EF26E267458D9003FAB2D /* ugenpass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B28EF27E267458DC003FAB2D /* ugenpassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28EF296267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpassTests" */;
+			buildPhases = (
+				B28EF27B267458DC003FAB2D /* Sources */,
+				B28EF27C267458DC003FAB2D /* Frameworks */,
+				B28EF27D267458DC003FAB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28EF281267458DC003FAB2D /* PBXTargetDependency */,
+			);
+			name = ugenpassTests;
+			productName = ugenpassTests;
+			productReference = B28EF27F267458DC003FAB2D /* ugenpassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B28EF289267458DC003FAB2D /* ugenpassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28EF299267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpassUITests" */;
+			buildPhases = (
+				B28EF286267458DC003FAB2D /* Sources */,
+				B28EF287267458DC003FAB2D /* Frameworks */,
+				B28EF288267458DC003FAB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28EF28C267458DC003FAB2D /* PBXTargetDependency */,
+			);
+			name = ugenpassUITests;
+			productName = ugenpassUITests;
+			productReference = B28EF28A267458DC003FAB2D /* ugenpassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28EF266267458D9003FAB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B28EF26D267458D9003FAB2D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B28EF27E267458DC003FAB2D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B28EF26D267458D9003FAB2D;
+					};
+					B28EF289267458DC003FAB2D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B28EF26D267458D9003FAB2D;
+					};
+				};
+			};
+			buildConfigurationList = B28EF269267458D9003FAB2D /* Build configuration list for PBXProject "ugenpass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28EF265267458D9003FAB2D;
+			productRefGroup = B28EF26F267458D9003FAB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28EF26D267458D9003FAB2D /* ugenpass */,
+				B28EF27E267458DC003FAB2D /* ugenpassTests */,
+				B28EF289267458DC003FAB2D /* ugenpassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28EF26C267458D9003FAB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28EF279267458DC003FAB2D /* Preview Assets.xcassets in Resources */,
+				B28EF276267458DC003FAB2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28EF27D267458DC003FAB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28EF288267458DC003FAB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28EF26A267458D9003FAB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28EF274267458D9003FAB2D /* ContentView.swift in Sources */,
+				B28EF29D267459BB003FAB2D /* ugenpass.swift in Sources */,
+				B28EF272267458D9003FAB2D /* ugenpassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28EF27B267458DC003FAB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28EF284267458DC003FAB2D /* ugenpassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28EF286267458DC003FAB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28EF28F267458DC003FAB2D /* ugenpassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B28EF281267458DC003FAB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28EF26D267458D9003FAB2D /* ugenpass */;
+			targetProxy = B28EF280267458DC003FAB2D /* PBXContainerItemProxy */;
+		};
+		B28EF28C267458DC003FAB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28EF26D267458D9003FAB2D /* ugenpass */;
+			targetProxy = B28EF28B267458DC003FAB2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B28EF291267458DC003FAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B28EF292267458DC003FAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28EF294267458DC003FAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ugenpass/ugenpass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ugenpass/Preview Content\"";
+				DEVELOPMENT_TEAM = 4E992B3742;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ugenpass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		B28EF295267458DC003FAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ugenpass/ugenpass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ugenpass/Preview Content\"";
+				DEVELOPMENT_TEAM = 4E992B3742;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ugenpass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		B28EF297267458DC003FAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4E992B3742;
+				INFOPLIST_FILE = ugenpassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ugenpass.app/ugenpass";
+			};
+			name = Debug;
+		};
+		B28EF298267458DC003FAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4E992B3742;
+				INFOPLIST_FILE = ugenpassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ugenpass.app/ugenpass";
+			};
+			name = Release;
+		};
+		B28EF29A267458DC003FAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4E992B3742;
+				INFOPLIST_FILE = ugenpassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ugenpass;
+			};
+			name = Debug;
+		};
+		B28EF29B267458DC003FAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4E992B3742;
+				INFOPLIST_FILE = ugenpassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ugenpass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28EF269267458D9003FAB2D /* Build configuration list for PBXProject "ugenpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28EF291267458DC003FAB2D /* Debug */,
+				B28EF292267458DC003FAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28EF293267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28EF294267458DC003FAB2D /* Debug */,
+				B28EF295267458DC003FAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28EF296267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28EF297267458DC003FAB2D /* Debug */,
+				B28EF298267458DC003FAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28EF299267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28EF29A267458DC003FAB2D /* Debug */,
+				B28EF29B267458DC003FAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28EF266267458D9003FAB2D /* Project object */;
+}

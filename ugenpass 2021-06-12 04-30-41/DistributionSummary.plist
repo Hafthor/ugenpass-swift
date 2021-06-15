@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ugenpass.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D54A35D300C167430AA255DDA21B31020694D717</string>
+				<key>dateExpires</key>
+				<string>6/12/22</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4E992B3742.com.hafthor.ugenpass</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4E992B3742</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>ugenpass.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>4e0ada61-e806-4332-81c1-d366e349c42a</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.hafthor.ugenpass</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4E992B3742</string>
+				<key>name</key>
+				<string>Hafthor Stefansson</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
