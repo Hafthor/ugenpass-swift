@@ -440,6 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ugenpass/ugenpass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ugenpass/Preview Content\"";
 				DEVELOPMENT_TEAM = 4E992B3742;
 				ENABLE_PREVIEWS = YES;
@@ -465,6 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ugenpass/ugenpass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ugenpass/Preview Content\"";
 				DEVELOPMENT_TEAM = 4E992B3742;
 				ENABLE_PREVIEWS = YES;
