@@ -1,6 +1,8 @@
 # ugenpass-swift
 Cryptographically derived passwords.
 
+Available on the Mac App Store at https://apps.apple.com/us/app/ugenpass/id1572217310
+
 Designed to be:
 
 * strong - uses PBKDF2
