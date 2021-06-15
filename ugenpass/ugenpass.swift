@@ -19,20 +19,12 @@ class UGenPass {
         return Data(resultBytes)
     }
     
-    static func sha256(data: Data, rounds: Int) -> Data {
-        var target = [UInt8](repeating: 0, count: Int(CC_SHA256_DIGEST_LENGTH))
-        SHA256.hash(data: data).withUnsafeBytes {
-            _ = CC_SHA256($0.baseAddress, CC_LONG(target.count), &target)
-        }
-        return Data(target);
-    }
-    
-    static func generate(pwd: String, domain: String) -> String {
+    static func generate(password: String, domain: String) -> String {
         var hash: Data
         do { // fold pwd, then domain, then pwd again
-            hash = try UGenPass.hash(data: pwd.data(using: .utf8)!, rounds: ROUNDS)
+            hash = try UGenPass.hash(data: password.data(using: .utf8)!, rounds: ROUNDS)
             hash = try UGenPass.hash(data: hash + domain.data(using: .utf8)!, rounds: ROUNDS)
-            hash = try UGenPass.hash(data: hash + pwd.data(using: .utf8)!, rounds: ROUNDS)
+            hash = try UGenPass.hash(data: hash + password.data(using: .utf8)!, rounds: ROUNDS)
         } catch {
             return ""
         }

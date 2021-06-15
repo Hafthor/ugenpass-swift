@@ -76,7 +76,7 @@ struct ContentView: View {
     func g() -> String {
         let pwd = password.trimmingCharacters(in: NSMutableCharacterSet.whitespacesAndNewlines)
         let dom = domain.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines).lowercased()
-        return UGenPass.generate(pwd: pwd, domain: dom)
+        return UGenPass.generate(password: pwd, domain: dom)
     }
 }
 
