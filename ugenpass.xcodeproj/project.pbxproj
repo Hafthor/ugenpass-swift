@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2071D2F267A2F4600179093 /* SuperGenPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2071D2E267A2F4600179093 /* SuperGenPass.swift */; };
+		B2071D3C267A309400179093 /* SuperGenPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2071D3B267A309400179093 /* SuperGenPassTests.swift */; };
 		B28EF272267458D9003FAB2D /* ugenpassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF271267458D9003FAB2D /* ugenpassApp.swift */; };
 		B28EF274267458D9003FAB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF273267458D9003FAB2D /* ContentView.swift */; };
 		B28EF276267458DC003FAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28EF275267458DC003FAB2D /* Assets.xcassets */; };
 		B28EF279267458DC003FAB2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28EF278267458DC003FAB2D /* Preview Assets.xcassets */; };
-		B28EF284267458DC003FAB2D /* ugenpassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF283267458DC003FAB2D /* ugenpassTests.swift */; };
+		B28EF284267458DC003FAB2D /* UGenPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF283267458DC003FAB2D /* UGenPassTests.swift */; };
 		B28EF28F267458DC003FAB2D /* ugenpassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF28E267458DC003FAB2D /* ugenpassUITests.swift */; };
-		B28EF29D267459BB003FAB2D /* ugenpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF29C267459BB003FAB2D /* ugenpass.swift */; };
+		B28EF29D267459BB003FAB2D /* UGenPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EF29C267459BB003FAB2D /* UGenPass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B2071D3E267A309400179093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28EF266267458D9003FAB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28EF26D267458D9003FAB2D;
+			remoteInfo = ugenpass;
+		};
 		B28EF280267458DC003FAB2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B28EF266267458D9003FAB2D /* Project object */;
@@ -47,6 +56,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B2071D2E267A2F4600179093 /* SuperGenPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperGenPass.swift; sourceTree = "<group>"; };
+		B2071D39267A309400179093 /* SuperGenPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGenPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2071D3B267A309400179093 /* SuperGenPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperGenPassTests.swift; sourceTree = "<group>"; };
+		B2071D3D267A309400179093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28EF26E267458D9003FAB2D /* ugenpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ugenpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28EF271267458D9003FAB2D /* ugenpassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpassApp.swift; sourceTree = "<group>"; };
 		B28EF273267458D9003FAB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,16 +67,23 @@
 		B28EF278267458DC003FAB2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B28EF27A267458DC003FAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28EF27F267458DC003FAB2D /* ugenpassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ugenpassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B28EF283267458DC003FAB2D /* ugenpassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpassTests.swift; sourceTree = "<group>"; };
+		B28EF283267458DC003FAB2D /* UGenPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGenPassTests.swift; sourceTree = "<group>"; };
 		B28EF285267458DC003FAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28EF28A267458DC003FAB2D /* ugenpassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ugenpassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28EF28E267458DC003FAB2D /* ugenpassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpassUITests.swift; sourceTree = "<group>"; };
 		B28EF290267458DC003FAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B28EF29C267459BB003FAB2D /* ugenpass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ugenpass.swift; sourceTree = "<group>"; };
+		B28EF29C267459BB003FAB2D /* UGenPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGenPass.swift; sourceTree = "<group>"; };
 		B28EF29E26748FB1003FAB2D /* ugenpass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ugenpass.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B2071D36267A309400179093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B28EF26B267458D9003FAB2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,12 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2071D3A267A309400179093 /* SuperGenPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2071D3B267A309400179093 /* SuperGenPassTests.swift */,
+				B2071D3D267A309400179093 /* Info.plist */,
+			);
+			path = SuperGenPassTests;
+			sourceTree = "<group>";
+		};
 		B28EF265267458D9003FAB2D = {
 			isa = PBXGroup;
 			children = (
 				B28EF270267458D9003FAB2D /* ugenpass */,
-				B28EF282267458DC003FAB2D /* ugenpassTests */,
 				B28EF28D267458DC003FAB2D /* ugenpassUITests */,
+				B28EF282267458DC003FAB2D /* UGenPassTests */,
+				B2071D3A267A309400179093 /* SuperGenPassTests */,
 				B28EF26F267458D9003FAB2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +134,7 @@
 				B28EF26E267458D9003FAB2D /* ugenpass.app */,
 				B28EF27F267458DC003FAB2D /* ugenpassTests.xctest */,
 				B28EF28A267458DC003FAB2D /* ugenpassUITests.xctest */,
+				B2071D39267A309400179093 /* SuperGenPassTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,8 +147,9 @@
 				B28EF275267458DC003FAB2D /* Assets.xcassets */,
 				B28EF27A267458DC003FAB2D /* Info.plist */,
 				B28EF277267458DC003FAB2D /* Preview Content */,
-				B28EF29C267459BB003FAB2D /* ugenpass.swift */,
+				B28EF29C267459BB003FAB2D /* UGenPass.swift */,
 				B28EF29E26748FB1003FAB2D /* ugenpass.entitlements */,
+				B2071D2E267A2F4600179093 /* SuperGenPass.swift */,
 			);
 			path = ugenpass;
 			sourceTree = "<group>";
@@ -130,13 +162,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B28EF282267458DC003FAB2D /* ugenpassTests */ = {
+		B28EF282267458DC003FAB2D /* UGenPassTests */ = {
 			isa = PBXGroup;
 			children = (
-				B28EF283267458DC003FAB2D /* ugenpassTests.swift */,
+				B28EF283267458DC003FAB2D /* UGenPassTests.swift */,
 				B28EF285267458DC003FAB2D /* Info.plist */,
 			);
-			path = ugenpassTests;
+			path = UGenPassTests;
 			sourceTree = "<group>";
 		};
 		B28EF28D267458DC003FAB2D /* ugenpassUITests */ = {
@@ -151,6 +183,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B2071D38267A309400179093 /* SuperGenPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2071D40267A309400179093 /* Build configuration list for PBXNativeTarget "SuperGenPassTests" */;
+			buildPhases = (
+				B2071D35267A309400179093 /* Sources */,
+				B2071D36267A309400179093 /* Frameworks */,
+				B2071D37267A309400179093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2071D3F267A309400179093 /* PBXTargetDependency */,
+			);
+			name = SuperGenPassTests;
+			productName = SuperGenPassTests;
+			productReference = B2071D39267A309400179093 /* SuperGenPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B28EF26D267458D9003FAB2D /* ugenpass */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B28EF293267458DC003FAB2D /* Build configuration list for PBXNativeTarget "ugenpass" */;
@@ -214,6 +264,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					B2071D38267A309400179093 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B28EF26D267458D9003FAB2D;
+					};
 					B28EF26D267458D9003FAB2D = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -243,11 +297,19 @@
 				B28EF26D267458D9003FAB2D /* ugenpass */,
 				B28EF27E267458DC003FAB2D /* ugenpassTests */,
 				B28EF289267458DC003FAB2D /* ugenpassUITests */,
+				B2071D38267A309400179093 /* SuperGenPassTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B2071D37267A309400179093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B28EF26C267458D9003FAB2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,12 +336,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B2071D35267A309400179093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2071D3C267A309400179093 /* SuperGenPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B28EF26A267458D9003FAB2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B28EF274267458D9003FAB2D /* ContentView.swift in Sources */,
-				B28EF29D267459BB003FAB2D /* ugenpass.swift in Sources */,
+				B2071D2F267A2F4600179093 /* SuperGenPass.swift in Sources */,
+				B28EF29D267459BB003FAB2D /* UGenPass.swift in Sources */,
 				B28EF272267458D9003FAB2D /* ugenpassApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28EF284267458DC003FAB2D /* ugenpassTests.swift in Sources */,
+				B28EF284267458DC003FAB2D /* UGenPassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +374,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B2071D3F267A309400179093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28EF26D267458D9003FAB2D /* ugenpass */;
+			targetProxy = B2071D3E267A309400179093 /* PBXContainerItemProxy */;
+		};
 		B28EF281267458DC003FAB2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B28EF26D267458D9003FAB2D /* ugenpass */;
@@ -316,6 +392,47 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B2071D41267A309400179093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4E992B3742;
+				INFOPLIST_FILE = SuperGenPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.SuperGenPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ugenpass.app/ugenpass";
+			};
+			name = Debug;
+		};
+		B2071D42267A309400179093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4E992B3742;
+				INFOPLIST_FILE = SuperGenPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.SuperGenPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ugenpass.app/ugenpass";
+			};
+			name = Release;
+		};
 		B28EF291267458DC003FAB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,7 +557,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ugenpass/ugenpass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ugenpass/Preview Content\"";
 				DEVELOPMENT_TEAM = 4E992B3742;
 				ENABLE_PREVIEWS = YES;
@@ -450,6 +567,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -467,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ugenpass/ugenpass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ugenpass/Preview Content\"";
 				DEVELOPMENT_TEAM = 4E992B3742;
 				ENABLE_PREVIEWS = YES;
@@ -477,6 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hafthor.ugenpass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -573,6 +692,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B2071D40267A309400179093 /* Build configuration list for PBXNativeTarget "SuperGenPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2071D41267A309400179093 /* Debug */,
+				B2071D42267A309400179093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B28EF269267458D9003FAB2D /* Build configuration list for PBXProject "ugenpass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
